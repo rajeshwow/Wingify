@@ -1,0 +1,72 @@
+
+html{
+	
+	height: 100%;
+	width: 100%;
+}
+
+#popup {
+  
+  
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  width: 60% !important;
+    margin: 5% auto;
+  background-color: #fed500;
+}
+
+#close{
+	color: black;
+	position: absolute;
+	top: 1%;
+	font-size: 20px;
+	right: 2%;
+	cursor: pointer;
+	font-weight: 900;
+}
+.text{
+	color: black;
+	text-transform: uppercase;
+}
+.bold{
+	font-weight: 500;
+
+}
+.newbutton{
+	width: 100%;
+	background-color: black;
+	color:white;
+	border: none;
+	outline: none;
+	
+}
+.input-lg{
+	
+	font-size: 15px;
+    border-radius: 0px;
+}
+
+.newbutton:hover,.newbutton:focus{
+	background-color: black;
+	color: white;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+	outline: none;
+	border: none;
+}
+
+.Privacy{
+	color: black;
+	padding: auto;
+}
+@media screen and (max-width: 992px) {
+  .hidethis {
+    display: none;
+  }
+  #popup{
+width: 60% !important;
+  }
+}
